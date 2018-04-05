@@ -1,0 +1,16 @@
+{
+    "name": "stephencozart/optimize-image",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Cozart",
+            "email": "stephen.cozart@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.15.1",
+        "yiisoft/yii2-gii": "^2.0",
+        "spatie/image-optimizer": "^1.0"
+    }
+}
