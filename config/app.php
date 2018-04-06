@@ -44,8 +44,8 @@ return [
                     'class' => \yii\rest\UrlRule::class,
                     'controller' => [
                         'v1/compress' => 'v1/compress',
+                        'v1/resize' => 'v1/resize',
                         'v1/info' => 'v1/info',
-                        'v1/user'
                     ]
                 ],
             ],
