@@ -1,5 +1,19 @@
 # optimize-image
 
+### Setup/Install
+``` php
+cp config/constants.local.php config/constants.php
+```
+
+Inside of `config/constants.php` you can set the `API_ENV` constant to your needs.
+
+Next you will need to configure your user repository.
+``` php
+copy config/userRepository.local.php config/userRepository.php
+```
+You can add more users to this configuration as needed.
+
+
 ### Example request using GuzzleHTTP
 
 This example shows how you would send a `compress` request to the API.  It will return the base64 encoded image contents.

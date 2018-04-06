@@ -1,7 +1,5 @@
 <?php
-$env = API_ENV;
-$db = require __DIR__ . "/db.$env.php";
-$userRepository = require __DIR__ . "/userRepository.$env.php";
+$userRepository = require __DIR__ . "/userRepository.php";
 
 return [
     'id' => 'optimize-image',
@@ -16,7 +14,6 @@ return [
         ],
     ],
     'components' => [
-        'db' => $db,
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [

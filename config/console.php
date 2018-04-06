@@ -1,6 +1,5 @@
 <?php
 $env = API_ENV;
-$db = require __DIR__ . "/db.$env.php";
 
 $config = [
     'id' => 'optimize-image-console',
@@ -25,7 +24,6 @@ $config = [
                 ],
             ],
         ],
-        'db' => $db,
     ],
 ];
 
