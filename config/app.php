@@ -1,6 +1,7 @@
 <?php
-$env = 'local';
+$env = API_ENV;
 $db = require __DIR__ . "/db.$env.php";
+$userRepository = require __DIR__ . "/userRepository.$env.php";
 
 return [
     'id' => 'optimize-image',
@@ -58,5 +59,6 @@ return [
             'enableSession' => false,
             'loginUrl' => null
         ],
+        'userRepository' => $userRepository
     ],
 ];

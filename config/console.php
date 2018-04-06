@@ -1,5 +1,5 @@
 <?php
-$env = 'local';
+$env = API_ENV;
 $db = require __DIR__ . "/db.$env.php";
 
 $config = [
