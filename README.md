@@ -1,6 +1,8 @@
 # optimize-image
 
 ### Setup/Install
+Make sure `runtime/temp` and `runtime/logs` folders are writable by the server.
+
 ``` php
 cp config/constants.local.php config/constants.php
 ```
